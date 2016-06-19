@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:background="@drawable/rounded_background"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingBottom="32dp"
+    android:paddingTop="32dp">
+
+    <TextView
+        android:id="@+id/goal_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-reguler"
+        android:gravity="center"
+        android:text="goal : 5000"
+        android:textColor="@color/textcolor"
+        android:textSize="@dimen/fab_margin"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="@dimen/fab_margin"
+            android:fontFamily="sans-serif-medium"
+            android:text="2000"
+            android:textColor="@color/textcolor"
+            android:textSize="42dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/kms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Steps"
+            android:textColor="@color/textcolor"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/remaining_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/fab_margin"
+        android:fontFamily="sans-serif-reguler"
+        android:text="3000 more to go"
+        android:textColor="@color/textcolor"
+        android:textSize="@dimen/fab_margin"
+        android:textStyle="bold" />
+
+</LinearLayout>
